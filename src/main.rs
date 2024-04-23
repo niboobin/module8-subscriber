@@ -20,9 +20,6 @@ impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
         println!("In Obin’s Computer, NPM - 2206046771 [129500004y]. Message received: {:?}", message);
         Ok(())
     }
-    fn get_handler_action(&self) -> String {
-        "action".to_string()
-    }
 }
 
 fn main() {
